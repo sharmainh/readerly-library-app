@@ -30,14 +30,14 @@ function Feature(props: FeatureProps){
 
 function Features() {
   return (
-    <div className="grid grid-rows-2 mt-20">
+    <div className="grid grid-rows-2 mt-20 ml-24">
         <h1 className="text-3xl font-bold features text-center">
             We Offer Unique Features
         </h1>
-        <p className="text-balance text-center font-thin">
+        <p className=" text-center font-thin">
             Readerly is your digital library-- a place that makes it easy to 
-            access books, documents, audio-visual <br/> materials and resources for 
-            students, researchers, and members of the wider public.
+            access books, documents, audio-visual <br/> materials and resources  
+            for students, researchers, and members of the wider public.
         </p>
         <div className="flex justify-evenly mt-5">
             <Feature imageUrl={join} className="w-16 h-16 mt-6"
